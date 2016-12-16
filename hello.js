@@ -6,7 +6,7 @@ $(document).ready(function() {
   //     }
   //   });
   // });
-  if(screen.width > 480) {
+  if(screen.width < 480) {
     // do any 480 width stuff here, or simply do nothing
     $('.show-title').hide();
     $('.experience').hide();

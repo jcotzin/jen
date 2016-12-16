@@ -17,7 +17,7 @@ nav ul {
 .fa {
   color: black;
 }
-@media (max-width : 2000px) and (min-width : 900px) {
+@media (max-width : 2000px) and (min-width : 1001px) {
   /*desktop*/
 
   li {
@@ -34,7 +34,7 @@ nav ul {
   }
 
   .jenpic img {
-    width: 390px;
+    width: 27%;
     height: auto;
     position: absolute;
     top: 0;
@@ -88,18 +88,334 @@ nav ul {
 
 }
 
-@media (min-width : 600px) and (max-width : 900px){
-  /*mobile landscape/mini-ipad*/
+@media (max-width : 1000px) and (min-width : 750px) {
+  /*ipad portrait*/
+
+  li {
+    /*height: 20px;*/
+    float: left;
+    margin-right: 20px;
+    padding: 20px 50px;
+  }
+
+  #nav-bar a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+  }
+
+  .jenpic img {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    top: 48%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+
+  #text {
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute;
+    width: 55%;
+    text-align: justify;;
+    margin-top: 133%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+
+ #text div {
+   margin-bottom: 50px;
+ }
+
+ .contact {
+   text-align: center;
+ }
+
+  .title {
+    font-size: 30px;
+    line-height: 2;
+    position: absolute;
+    margin: 0;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .title2 {
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    margin: 0;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .title-style {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .show-title {
+    text-align: center;
+    font-size: 17px;
+    top: 75%;
+  }
+}
+
+@media (min-width : 352px) and (max-width : 380px){
+  /*iphone 6 portrait*/
+
+li {
+  /*height: 20px;*/
+  float: left;
+  margin-right: 20px;
+  padding: 20px 50px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+}
+
+.jenpic img {
+  width: 67%;
+  height: auto;
+  position: absolute;
+  margin: 0;
+  top: 42%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
+#text {
+  font-size: 14px;
+  line-height: 1.5;
+  position: absolute;
+  width: 75%;
+  text-align: justify;;
+  margin-left: 10%;
+  margin-top: 97%;
+  margin-bottom: 20px;
+  }
+
+#text div {
+ margin-bottom: 50px;
+}
+
+.contact {
+ text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 2;
+  position: absolute;
+  margin: 0;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.title2 {
+  font-size: 20px;
+  margin-left: 10px;
+  position: absolute;
+  margin: 0;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.title-style {
+  font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.show-title {
+  text-align: center;
+  font-size: 17px;
+  top: 75%;
+}
 
 }
 
-@media (min-width: 350px) and (max-width : 600px) {
-  /*mobile*/
+@media (min-width: 672px) and (max-width : 745px) {
+  /*iphone 6 landscape*/
+  li {
+    /*height: 20px;*/
+    float: left;
+    margin-right: 20px;
+    padding: 20px 50px;
+  }
 
+  #nav-bar a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+  }
+
+  .jenpic img {
+    width: 36%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    top: 72%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+
+  #text {
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute;
+    width: 55%;
+    text-align: justify;;
+    margin-top: 120%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+
+ #text div {
+   margin-bottom: 50px;
+ }
+
+ .contact {
+   text-align: center;
+ }
+
+  .title {
+    font-size: 30px;
+    line-height: 2;
+    position: absolute;
+    margin: 0;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .title2 {
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    margin: 0;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .title-style {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .show-title {
+    text-align: center;
+    font-size: 17px;
+    top: 75%;
+  }
+}
+
+@media (min-width: 360px) and (max-width : 670px) {
+  /*iphone 5 landscape*/
+  li {
+    /*height: 20px;*/
+    float: left;
+    margin-right: 20px;
+    padding: 20px 50px;
+  }
+
+  #nav-bar a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+  }
+
+  .jenpic img {
+    width: 42%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+
+  #text {
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute;
+    width: 55%;
+    text-align: justify;;
+    margin-top: 145%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    }
+
+ #text div {
+   margin-bottom: 50px;
+ }
+
+ .contact {
+   text-align: center;
+ }
+
+  .title {
+    font-size: 30px;
+    line-height: 2;
+    position: absolute;
+    margin: 0;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .title2 {
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    margin: 0;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .title-style {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .show-title {
+    text-align: center;
+    font-size: 17px;
+    top: 75%;
+  }
 }
 
 @media (min-width: 80px) and (max-width : 350px) {
- /*iphone*/
+ /*iphone 5 portrait*/
  li {
    /*height: 20px;*/
    float: left;
@@ -114,7 +430,7 @@ nav ul {
  }
 
  .jenpic img {
-   width: 250px;
+   width: 73%;
    height: auto;
    position: absolute;
    margin: 0;
