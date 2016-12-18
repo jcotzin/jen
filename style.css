@@ -26,7 +26,11 @@ nav ul {
   color: black;
 }
 
-
+.contact a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #000000;
+}
 
 @media (max-width : 2000px) and (min-width : 1001px) {
   /*desktop*/
@@ -181,6 +185,88 @@ nav ul {
   }
 }
 
+@media (min-width : 381px) and (max-width : 450px){
+  /*iphone 6 plus portrait*/
+
+li {
+  /*height: 20px;*/
+  float: left;
+  margin-right: 20px;
+  padding: 20px 50px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+}
+
+.jenpic img {
+  width: 67%;
+  height: auto;
+  position: absolute;
+  margin: 0;
+  top: 38%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
+#text {
+  font-size: 14px;
+  line-height: 1.5;
+  position: absolute;
+  width: 75%;
+  text-align: justify;;
+  margin-left: 10%;
+  margin-top: 97%;
+  margin-bottom: 20px;
+  }
+
+#text div {
+ margin-bottom: 50px;
+}
+
+.contact {
+ text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 2;
+  position: absolute;
+  margin: 0;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.title2 {
+  font-size: 20px;
+  margin-left: 20px;
+  position: absolute;
+  margin: 0;
+  top: 75%;
+  left: 72%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.title-style {
+  font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.show-title {
+  text-align: center;
+  font-size: 17px;
+  top: 75%;
+}
+
+}
+
 @media (min-width : 352px) and (max-width : 380px){
   /*iphone 6 portrait*/
 
@@ -263,7 +349,7 @@ li {
 
 }
 
-@media (min-width: 581px) and (max-width : 700px) {
+@media (min-width: 581px) and (max-width : 740px) {
   /*iphone 6 landscape*/
   li {
     /*height: 20px;*/
