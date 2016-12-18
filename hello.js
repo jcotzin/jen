@@ -1,13 +1,11 @@
 $(document).ready(function() {
-  // $(function(){
-  //   $('a').each(function() {
-  //     if ($(this).prop('href') == window.location.href) {
-  //       $(this).addClass('current-link');
-  //     }
-  //   });
-  // });
-  if(screen.width < 480) {
-    // do any 480 width stuff here, or simply do nothing
+  $('#nav-bar a').click(function() {
+      $('a').removeClass('active');
+      $(this).addClass('active');
+  });
+
+  if(screen.width > 900) {
+
     $('.show-title').hide();
     $('.experience').hide();
     $('.education').hide();
@@ -45,5 +43,7 @@ $(document).ready(function() {
     $('#nav-bar').hide();
     $('.show-title').show();
 };
+
+
 
 });

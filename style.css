@@ -14,9 +14,20 @@ nav ul {
   color: #9E9E9E;
 }
 
+#nav-bar a:active {
+  color: #9E9E9E;
+}
+
+#nav-bar a.active {
+  color: #9E9E9E;
+}
+
 .fa {
   color: black;
 }
+
+
+
 @media (max-width : 2000px) and (min-width : 1001px) {
   /*desktop*/
 
@@ -72,13 +83,13 @@ nav ul {
     /*position: absolute;*/
     float: left;
     margin-left: 180px;
-    margin-top: -30px;
-    line-height: 1;
+    margin-top: -40px;
+    line-height: 0.8;
   }
 
   .title2 {
     font-size: 25px;
-    margin-left: 60px;
+    margin-left: 150px;
   }
 
   .title-style {
@@ -191,7 +202,7 @@ li {
   height: auto;
   position: absolute;
   margin: 0;
-  top: 42%;
+  top: 43%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
@@ -230,11 +241,11 @@ li {
 
 .title2 {
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
   position: absolute;
   margin: 0;
   top: 75%;
-  left: 50%;
+  left: 72%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
@@ -252,7 +263,7 @@ li {
 
 }
 
-@media (min-width: 672px) and (max-width : 745px) {
+@media (min-width: 581px) and (max-width : 700px) {
   /*iphone 6 landscape*/
   li {
     /*height: 20px;*/
@@ -272,7 +283,7 @@ li {
     height: auto;
     position: absolute;
     margin: 0;
-    top: 72%;
+    top: 64%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -316,7 +327,7 @@ li {
     position: absolute;
     margin: 0;
     top: 75%;
-    left: 50%;
+    left: 72%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
@@ -333,7 +344,7 @@ li {
   }
 }
 
-@media (min-width: 360px) and (max-width : 670px) {
+@media (min-width: 560px) and (max-width : 580px) {
   /*iphone 5 landscape*/
   li {
     /*height: 20px;*/
@@ -349,11 +360,11 @@ li {
   }
 
   .jenpic img {
-    width: 42%;
+    width: 36%;
     height: auto;
     position: absolute;
     margin: 0;
-    top: 90%;
+    top: 64%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -366,7 +377,7 @@ li {
     position: absolute;
     width: 55%;
     text-align: justify;;
-    margin-top: 145%;
+    margin-top: 133%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
@@ -397,7 +408,7 @@ li {
     position: absolute;
     margin: 0;
     top: 75%;
-    left: 50%;
+    left: 72%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
   }
@@ -413,6 +424,7 @@ li {
     top: 75%;
   }
 }
+
 
 @media (min-width: 80px) and (max-width : 350px) {
  /*iphone 5 portrait*/
@@ -434,7 +446,7 @@ li {
    height: auto;
    position: absolute;
    margin: 0;
-   top: 42%;
+   top: 51%;
    left: 50%;
    margin-right: -50%;
    transform: translate(-50%, -50%)
@@ -442,7 +454,7 @@ li {
 
 
  #text {
-   font-size: 14px;
+   font-size: 15px;
    line-height: 1.5;
    position: absolute;
    width: 75%;
