@@ -32,6 +32,7 @@ nav ul {
   color: #000000;
 }
 
+
 @media (max-width : 2000px) and (min-width : 1001px) {
   /*desktop*/
 
@@ -267,7 +268,7 @@ li {
 
 }
 
-@media (min-width : 352px) and (max-width : 380px){
+@media (min-width : 351px) and (max-width : 380px){
   /*iphone 6 portrait*/
 
 li {
@@ -575,7 +576,7 @@ li {
    position: absolute;
    margin: 0;
    top: 75%;
-   left: 50%;
+   left: 72%;
    margin-right: -50%;
    transform: translate(-50%, -50%)
  }
